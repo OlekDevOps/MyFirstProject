@@ -1,0 +1,22 @@
+cities = ['Dniepr','moskva','Kiev','Kryjopol','Perdolsk']
+print(cities)
+print(len(cities))
+print(cities[0])
+print(cities[-1])
+print(cities[1].upper())
+cities[1] = 'Dodonsk'
+print(cities)
+cities.append('Yan Da Cjan')
+print(cities)
+cities.insert (2,'Dzialoszin')
+print(cities)
+del cities[-1]
+print(cities)
+cities.remove('Perdolsk')
+print(cities)
+del_city = cities.pop()
+print("Deleted city is:" + del_city)
+print(cities)
+cities.sort()
+cities.reverse()
+print(cities)
